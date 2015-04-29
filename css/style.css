@@ -1,0 +1,126 @@
+@import "http://webfonts.ru/import/classica.css";
+body {
+	background: url("../img/Bakground_Body.png")  no-repeat fixed;
+	background-size: cover;
+}
+
+#heder {
+	margin: auto;
+	width: 1000px;
+	height: 100px;
+	position: relative;
+}
+
+span {
+color: #fff;
+	position: absolute;
+	font-family: 'Classica Two';
+	font-size: 18px; 
+	letter-spacing:5px;
+
+}
+li a span {
+background: -webkit-linear-gradient(top, #6a6c70 0%,#292c2f 100%);
+	padding: 2px 15px;
+	border-radius: 10px;
+	position: relative;
+	font-family: 'arial';
+	font-size: 12px; 
+}
+ li {
+	list-style: none;
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+li a {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+}
+
+#mainImg {
+	width: 960px;
+	height: 430px;
+	margin: 10px auto;
+	background: -webkit-radial-gradient(top, ellipse farthest-side, #333 0%,#000 100%);
+	outline: 10px solid #1c1e21;
+	margin-top: -30px;
+}
+
+#heder ul {
+	text-align: right;
+	position: relative;
+	margin-top: 40px;
+}
+
+ #mainImg img {
+	width: 900px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+.triuhl {
+	width: 0;
+	height: 0;
+	border-bottom:10px solid #ccc;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin: auto;
+	position: relative;
+	top: -10px;
+}
+
+a > img {
+	width: 130px;
+	height: 70px;
+} 
+
+#slayder {
+	width: 1200px;
+	height: 100px;
+	background: -webkit-radial-gradient(center, circle cover, #ccc 0%,#000 100%);
+	text-align: center;
+	margin: -10px auto;
+	position: relative;
+	box-shadow: 0 20px 10px rgba(0,0,0,0.6);
+	opacity: 0.8;
+}
+
+
+#slayder > a img{
+	margin: 5px 20px;
+}
+
+ #socnetwork  {
+ 	width: 800px;
+	margin: 60px auto;
+font-family: Arial; 
+	color: #fff; 
+	text-align: center;
+}
+
+#socnetwork ul li {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+	background: -webkit-linear-gradient(top, #333 0%,#000 100%);
+	display: inline-block;
+	list-style: none;
+	margin: 10px ;
+}
+
+#socnetwork ul li:hover {
+		background: -webkit-linear-gradient(top, #555 0%,#000 100%);
+}
+
+i {
+	font-size: 20px;
+	margin-top: 7px;
+}
+i.icon-github{
+	color:#0275A6;
+}
